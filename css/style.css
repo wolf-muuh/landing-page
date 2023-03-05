@@ -14,10 +14,7 @@
     src: url(../assets/fonts/opensans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
-@font-face {
-    font-family: courierprime;
-    src: url(../assets/fonts/courierprime/CourierPrime-Regular.ttf);
-}
+
 
 /* Reset css */
 * {
@@ -109,26 +106,158 @@ hr {
     border-color: #ffaf00;
 }
 
+/* sobre */
+
+section div {
+    width: 100%;
+}
+
+section {
+    background-color: #080324;
+    width: 100%;
+    height: 800px;
+}
+
+section h1 {
+    font-family: bebas neue;
+    font-size: 64px;
+    color: #F9003D;
+    margin-top: 62px;
+}
+
+section img {
+    margin-top: 64px;
+    margin-bottom: 119px;
+}
+
+section h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: white;
+    margin-top: 203px;
+    text-transform: uppercase;
+}
+
+#outro-h1 {
+    font-family: bebas neue;
+    color: #ffaf00;
+    font-size: 64px;
+ 
+}
+
+section p {
+    color: white;
+    font-family: opensans;
+    font-size: 18px;
+    margin-top: 29px;
+    margin-bottom: 203px;
+}
+
+.sobre-flex {
+    display: flex;
+    align-items: center;
+    
+}
+
 /* info */
 
-main .informações {
+.info-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+aside{
+    background-image: url(../assets/images/imagem-fundo-info.png);
     width: 100%;
     height: 200px;
-    color: white;
-
-    background-image: url(../assets/images/imagem-fundo-info.png);
-    background-size: cover;
 }
 
-main .informações p {
+aside h2{
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    font-size: 24px;
-    font-weight: bold;
 }
 
-main .informações h2 {
+aside p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
     color: #A259F7;
-    border: 1px solid #A259F7;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
+.caixinha {
+    border: 2px solid #A259F7;
+    width: 289px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+footer {
+    background-image: url(../assets/images/imagem-fundo-endereco.png);
+    width: 100%;
+    height: 598px;
+}
+
+footer h1 {
+    color: #ffaf00;
+    font-family: bebas neue;
+    font-size: 64px;
+}
+
+footer p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: #A259F7;
+    width: 435px;
+    height: 88.5px;
+
+    padding-left: 35px;
+}
+ .caixa-endereço {
+    border: 2px solid #340B65;
+    background-color: #010010;
+    width: 899px;
+    height: 203.36px;
+ }
+
+ .alinhar-o-texto-da-caixa {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+ }
+
+.footer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    position: relative;
+    top: -43px;
+    right: 388px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 18px;
+    font-family: opensans;
+    height: 82px;
+    width: 100%;
+
+    padding-top: 65px;
+}
+
+.copyright-flex {
+    background-color: #F9003D;
+    display: flex;
+    justify-content: center;
+    
 }
